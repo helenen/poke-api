@@ -8,13 +8,8 @@ class Jon extends React.Component {
         return (
             <div className='pokemon'>
                 <div className='card'>
+                    <h3 className='title'>{this.props.name}</h3>
                     <img className='img' src={this.props.img} alt="" />
-                    <div className='title-description'>
-                        <h3 className='title'>{this.props.name}</h3>
-                        <p className='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                            qui officia t laborum.
-                        </p>
-                    </div>
                 </div>
             </div>
         );
